@@ -116,6 +116,25 @@ h6 {
   background: #18d26e;
 }
 
+#header .btn-cv {
+  margin-top: 20px;
+  background: #18d26e;
+  padding: 7px 25px;
+  border: none;
+  border-radius: 17px;
+}
+
+#header .btn-cv:hover {
+  background: green;
+  scale: 110%;
+  transition-duration: 0.5s;
+}
+
+#header .btn-cv a {
+  color: white;
+  font-weight: bold;
+}
+
 @media (max-width: 992px) {
   #header h1 {
     font-size: 36px;
@@ -148,6 +167,7 @@ h6 {
 }
 
 #header.header-top .social-links,
+#header.header-top .cv,
 #header.header-top h2 {
   display: none;
 }
@@ -607,6 +627,11 @@ section .container {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+}
+
+.portfolio .portfolio-item .portfolio-wrap {
+  max-height: 175px;
+  
 }
 
 .portfolio #portfolio-flters {
