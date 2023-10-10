@@ -1,508 +1,872 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>My Portofolio</title>
+    <!-- Favicons -->
+    <link href="assets/img/icon.jpg" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <title>My Portofolio</title>
-  <!-- Favicons -->
-  <link href="assets/img/icon.jpg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header">
+      <div class="container">
+        <h1><a href="index.html">Gera Anggara Putra</a></h1>
+        <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+        <h2>
+          I'm a <span>Junior Software Engineer</span> from Bandung, Indonesia
+        </h2>
 
-</head>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link active" href="#header">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#portfolio">Projects</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
 
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container">
-
-      <h1><a href="index.html">Gera Anggara Putra</a></h1>
-      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2>I'm a <span>Junior Web Developer</span> from Bandung, Indonesia</h2>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link active" href="#header">Home</a></li>
-          <li><a class="nav-link" href="#about">About</a></li>
-          <li><a class="nav-link" href="#portfolio">Projects</a></li>
-          <li><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <div class="social-links">
-        <a href="https://twitter.com/bg_gd1" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="https://github.com/GeraAnggaraPutra" target="_blank" class="github"><i class="bi bi-github"></i></a>
-        <a href="https://instagram.com/g_raap1" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://wa.me/628996159510" target="_blank" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
-        <a href="https://www.linkedin.com/in/gera-anggara-putra-14a590272/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
-      
-      <div class="cv">
-        <button class="btn-cv"><a href="https://drive.google.com/file/d/1MUeVqYcU6oATw04t0V5bIGTgB917nrOs/view" target="_blank">See CV </a></button>
-      </div>
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
-
-    <!-- ======= About Me ======= -->
-    <div class="about-me container">
-
-      <div class="section-title">
-        <h2>About</h2>
-        <p>Learn more about me</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/about.gif" class="img-fluid" alt="">
+        <div class="social-links">
+          <a href="https://twitter.com/bg_gd1" target="_blank" class="twitter"
+            ><i class="bi bi-twitter"></i
+          ></a>
+          <a
+            href="https://github.com/GeraAnggaraPutra"
+            target="_blank"
+            class="github"
+            ><i class="bi bi-github"></i
+          ></a>
+          <a
+            href="https://instagram.com/anggaragera"
+            target="_blank"
+            class="instagram"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="https://wa.me/628996159510" target="_blank" class="whatsapp"
+            ><i class="bi bi-whatsapp"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/gera-anggara-putra"
+            target="_blank"
+            class="linkedin"
+            ><i class="bi bi-linkedin"></i
+          ></a>
         </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Junior Web Developer</h3>
-          <p class="fst-italic">
-            Perkenalkan nama saya Gera Anggara Putra dan ini adalah biodata saya :
-          </p>
-          <div class="row">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Agama:</strong> <span>Islam</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Telepon:</strong> <span>+62 899 615 9510</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Tempat, tgl lahir:</strong> <span>Bandung, 30 Agustus 2005</span></li>
-              </ul>
-            </div>
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Umur:</strong> <span>17</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>anggaragera@gmail.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Alamat:</strong> <span>Jl. Cibiuk, Kp. Cangkuang wetan, Bandung 40258</span></li>
-              </ul>
-            </div>
-          </div>
-          <p>
-            Saya adalah seorang fresh graduate dari SMK Assalaam Bandung jurusan Rekayasa Perangkat Lunak, saya memiliki keterampilan dan pengetahuan dalam teknologi informasi dan komunikasi. Selain itu, saya juga memiliki minat yang besar di dunia pemrograman. Minat ini memungkinkan saya untuk mempelajari bahasa pemrograman dengan cepat dan efektif sehingga saya siap untuk memasuki dunia kerja yang semakin berkembang dan menantang di bidang IT.
-          </p>
+
+        <div class="cv">
+          <button class="btn-cv">
+            <a
+              href="https://drive.google.com/file/d/1MUeVqYcU6oATw04t0V5bIGTgB917nrOs/view"
+              target="_blank"
+              >See CV
+            </a>
+          </button>
         </div>
       </div>
+    </header>
+    <!-- End Header -->
 
-    </div><!-- End About Me -->
-
-    <!-- ======= Skills  ======= -->
-    <div class="skills container">
-
-      <div class="section-title">
-        <h2>Skills</h2>
-      </div>
-
-      <div class="row skills-content">
-
-        <div class="col-lg-6">
-
-          <div class="progress">
-            <span class="skill">HTML <i class="val">98%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">CSS <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">PHP <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">MySql <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">JavaScript <i class="val">70%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Python <i class="val">30%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <!-- ======= About Me ======= -->
+      <div class="about-me container">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Learn more about me</p>
         </div>
 
-        <div class="col-lg-6">
-
-          <div class="progress">
-            <span class="skill">Bootstrap <i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Laravel <i class="val">86%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          
-          <div class="progress">
-            <span class="skill">Tailwind <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">React js <i class="val">78%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>   
-
-          <div class="progress">
-            <span class="skill">Flutter <i class="val">50%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div><!-- End Skills -->
-
-  </section><!-- End About Section -->
-
-
-  <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Projects</h2>
-        <p>My Projects</p>
-      </div>
-
-      <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/fire-chat-app.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Fire Chat App</h4>
-              <p>Website ( React Js, Firebase )</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/fire-chat-app.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Fire Chat App ( React Js ). Realtime application menggunakan Firebase. Untuk menggunakannya user diharuskan login terlebih dahulu lalu cari user lain ( sudah terdaftar di website ini ) yang ingin anda kirimi pesan, sebagai percobaan anda dapat cari user dengan nama 'gera' lalu klik dan mulai percakapan."><i class="bx bx-plus"></i></a>
-                <a href="https://fire-chat-gera.netlify.app/" target="_blank" data-glightbox="type: external" ><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/react-3d.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>3D Application</h4>
-              <p>Website ( React Js )</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/react-3d.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="3D Application ( React Js ), menggunakan react-three"><i class="bx bx-plus"></i></a>
-                <a href="https://644e5aebac9d364a8c44a988--keen-lolly-a486ea.netlify.app/" target="_blank" data-glightbox="type: external" ><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/movie-trailer.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Movie Trailer App</h4>
-              <p>Website ( React Js )</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/movie-trailer.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Movie Trailer App ( React Js ), GET data dari API"><i class="bx bx-plus"></i></a>
-                <a href="https://geraanggaraputra.github.io/movie-trailer-app-react/" target="_blank" data-glightbox="type: external" ><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/rental-mobil.PNG" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Rental Mobil</h4>
-              <p>Website sistem informasi management ( Laravel )</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/rental-mobil.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Website sistem informasi management rental mobil ( Laravel )"><i class="bx bx-plus"></i></a>
-                <a href="https://github.com/GeraAnggaraPutra/Rental-Mobil" target="_blank" data-glightbox="type: external"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/news-app.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>News App</h4>
-              <p>Mobile ( Flutter )</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/news-app.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="News App ( Flutter )"><i class="bx bx-plus"></i></a>
-                <a href="https://github.com/GeraAnggaraPutra/News-Flutter" target="_blank" data-glightbox="type: external" ><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/calculator.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Calculator</h4>
-              <p>Website ( React Js )</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/calculator.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Calculator application ( React js )"><i class="bx bx-plus"></i></a>
-                <a href="https://github.com/GeraAnggaraPutra/Calculator-ReactJS" target="_blank" data-glightbox="type: external" ><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/socketio-chat.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Socketio Chat App</h4>
-              <p>Website ( React Js, Node Js )</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/socketio-chat.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Socketio chat application ( React Js, Node Js )"><i class="bx bx-plus"></i></a>
-                <a href="https://github.com/GeraAnggaraPutra/socketio-chat-app-react" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-       <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/laract.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Portal Berita</h4>
-              <p>Website ( Laravel breeze react js )</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/laract.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Portal berita ( Laravel breeze react js)"><i class="bx bx-plus"></i></a>
-                <a href="https://github.com/GeraAnggaraPutra/laract" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-       <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/pw-generator.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Password Generator</h4>
-              <p>Website ( React Js )</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/pw-generator.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Password generator ( React Js )"><i class="bx bx-plus"></i></a>
-                <a href="https://geraanggaraputra.github.io/password-generator/" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-       <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/data-finance1.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Data Finance Landing Page</h4>
-              <p>Website ( React Js )</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/data-finance2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Data finance landing page ( React Js )"><i class="bx bx-plus"></i></a>
-                <a href="https://github.com/GeraAnggaraPutra/data-finance" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-       <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/snake-game.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Snake Game</h4>
-              <p>Python</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/snake-game.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Snake game ( Python )"><i class="bx bx-plus"></i></a>
-                <a href="https://github.com/GeraAnggaraPutra/snake-game" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-       <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/ping-pong.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Ping pong Game</h4>
-              <p>Python</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/ping-pong.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ping pong game ( Python )"><i class="bx bx-plus"></i></a>
-                <a href="https://github.com/GeraAnggaraPutra/ping-pong-game" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section><!-- End Portfolio Section -->
-
-  <!-- ======= Contact Section ======= -->
-  <section id="contact" class="contact">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Contact</h2>
-        <p>Contact Me</p>
-      </div>
-
-      <div class="row mt-2">
-
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>Jl. Cibiuk, Kp. Cangkuang wetan, Bandung 40258</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a href="https://twitter.com/bg_gd1" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="https://github.com/GeraAnggaraPutra" target="_blank" class="github"><i class="bi bi-github"></i></a>
-              <a href="https://instagram.com/g_raap1" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="https://wa.me/628996159510" target="_blank" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
-              <a href="https://www.linkedin.com/in/gera-anggara-putra-14a590272/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
-            <p>anggaragera@gmail.com</p>
-          </div>
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Call Me</h3>
-            <p>+62 899 615 9510</p>
-          </div>
-        </div>
-      </div>
-
-      <form action="https://formspree.io/f/xwkjybyq" method="post" id="myForm" class="php-email-form mt-4">
         <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/about.gif" class="img-fluid" alt="" />
           </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Junior Software Engineer</h3>
+            <p class="fst-italic">Back-End Developer</p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Telephone:</strong> <span>+62 899 615 9510</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Place ,date of birth:</strong>
+                    <span>Bandung, 30 August 2005</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                    <span>anggaragera@gmail.com</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Address:</strong>
+                    <span>Jl. Cibiuk, Kp. Cangkuang wetan, Bandung 40258</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              I am a backend developer with a major in Software Engineering. I
+              have a strong passion for the world of programming, which enables
+              me to quickly and effectively learn programming languages. I am
+              well-prepared to enter the ever-evolving and challenging IT
+              industry. The technologies I specialize in are Golang and Laravel.
+            </p>
           </div>
         </div>
-        <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+      </div>
+      <!-- End About Me -->
+
+      <!-- ======= Skills  ======= -->
+      <div class="skills container">
+        <div class="section-title">
+          <h2>Skills</h2>
         </div>
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+
+        <div class="row skills-content">
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">Golang <i class="val">88%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="88"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">MySql <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">PostgreSql <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">98%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="98"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">Laravel <i class="val">88%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="88"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Bootstrap <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Tailwind <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="55"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">React js <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="50"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Flutter <i class="val">30%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="30"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">58%</i></span>
+              <div class="progress-bar-wrap">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="58"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="my-3">
-          <!-- <div class="loading">Loading</div> -->
-          <div class="sent-message">Your message has been sent. Thank you!</div>
+      </div>
+      <!-- End Skills -->
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>My Projects</p>
         </div>
-        <div class="text-center"><button type="submit" id="submitForm">Send Message</button></div>
-      </form>
 
-    </div>
-  </section><!-- End Contact Section -->
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/fire-chat-app.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Fire Chat App</h4>
+                <p>Website ( React Js, Firebase )</p>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/fire-chat-app.jpeg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Fire Chat App ( React Js ). Realtime application menggunakan Firebase. Untuk menggunakannya user diharuskan login terlebih dahulu lalu cari user lain ( sudah terdaftar di website ini ) yang ingin anda kirimi pesan, sebagai percobaan anda dapat cari user dengan nama 'gera' lalu klik dan mulai percakapan."
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://fire-chat-gera.netlify.app/"
+                    target="_blank"
+                    data-glightbox="type: external"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-  <script>
-   const form = document.getElementById('myForm');
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/react-3d.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>3D Application</h4>
+                <p>Website ( React Js )</p>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/react-3d.jpeg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="3D Application ( React Js ), menggunakan react-three"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://644e5aebac9d364a8c44a988--keen-lolly-a486ea.netlify.app/"
+                    target="_blank"
+                    data-glightbox="type: external"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    form.addEventListener('submit', (event) => {
-      event.preventDefault(); // prevent default form submission
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/movie-trailer.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Movie Trailer App</h4>
+                <p>Website ( React Js )</p>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/movie-trailer.jpeg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Movie Trailer App ( React Js ), GET data dari API"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://geraanggaraputra.github.io/movie-trailer-app-react/"
+                    target="_blank"
+                    data-glightbox="type: external"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      // get form data
-      const formData = new FormData(form);
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/rental-mobil.PNG"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Rental Mobil</h4>
+                <p>Website sistem informasi management ( Laravel )</p>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/rental-mobil.PNG"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Website sistem informasi management rental mobil ( Laravel )"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://github.com/GeraAnggaraPutra/Rental-Mobil"
+                    target="_blank"
+                    data-glightbox="type: external"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      // clear form
-      form.reset();
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/news-app.jpg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>News App</h4>
+                <p>Mobile ( Flutter )</p>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/news-app.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="News App ( Flutter )"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://github.com/GeraAnggaraPutra/News-Flutter"
+                    target="_blank"
+                    data-glightbox="type: external"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      // show alert
-      const alert = document.createElement('div');
-      alert.classList.add('alert', 'alert-success');
-      alert.textContent = 'Your message has been sent. Thank you!';
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/calculator.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Calculator</h4>
+                <p>Website ( React Js )</p>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/calculator.jpeg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Calculator application ( React js )"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://github.com/GeraAnggaraPutra/Calculator-ReactJS"
+                    target="_blank"
+                    data-glightbox="type: external"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      // insert alert after form
-      form.insertAdjacentElement('afterend', alert);
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/socketio-chat.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Socketio Chat App</h4>
+                <p>Website ( React Js, Node Js )</p>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/socketio-chat.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Socketio chat application ( React Js, Node Js )"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://github.com/GeraAnggaraPutra/socketio-chat-app-react"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      // automatically close alert after 3 seconds
-      setTimeout(() => {
-        alert.remove(); // remove alert from DOM
-      }, 3000);
-    });
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/laract.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Portal Berita</h4>
+                <p>Website ( Laravel breeze react js )</p>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/laract.jpeg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Portal berita ( Laravel breeze react js)"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://github.com/GeraAnggaraPutra/laract"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-  </script>
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/pw-generator.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Password Generator</h4>
+                <p>Website ( React Js )</p>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/pw-generator.jpeg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Password generator ( React Js )"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://geraanggaraputra.github.io/password-generator/"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/data-finance1.jpeg"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Data Finance Landing Page</h4>
+                <p>Website ( React Js )</p>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/data-finance2.jpeg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Data finance landing page ( React Js )"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://github.com/GeraAnggaraPutra/data-finance"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-</body>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/snake-game.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Snake Game</h4>
+                <p>Python</p>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/snake-game.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Snake game ( Python )"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://github.com/GeraAnggaraPutra/snake-game"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/portfolio/ping-pong.png"
+                class="img-fluid"
+                alt=""
+              />
+              <div class="portfolio-info">
+                <h4>Ping pong Game</h4>
+                <p>Python</p>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/ping-pong.png"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Ping pong game ( Python )"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://github.com/GeraAnggaraPutra/ping-pong-game"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    class="portfolio-details-lightbox"
+                    title="Portfolio Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contact Me</p>
+        </div>
+
+        <div class="row mt-2">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-map"></i>
+              <h3>My Address</h3>
+              <p>Jl. Cibiuk, Kp. Cangkuang wetan, Bandung 40258</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-share-alt"></i>
+              <h3>Social Profiles</h3>
+              <div class="social-links">
+                <a
+                  href="https://twitter.com/bg_gd1"
+                  target="_blank"
+                  class="twitter"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+                <a
+                  href="https://github.com/GeraAnggaraPutra"
+                  target="_blank"
+                  class="github"
+                  ><i class="bi bi-github"></i
+                ></a>
+                <a
+                  href="https://instagram.com/anggaragera"
+                  target="_blank"
+                  class="instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a
+                  href="https://wa.me/628996159510"
+                  target="_blank"
+                  class="whatsapp"
+                  ><i class="bi bi-whatsapp"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/gera-anggara-putra"
+                  target="_blank"
+                  class="linkedin"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-4 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Me</h3>
+              <p>anggaragera@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Me</h3>
+              <p>+62 899 615 9510</p>
+            </div>
+          </div>
+        </div>
+
+        <form
+          action="https://formspree.io/f/xwkjybyq"
+          method="post"
+          id="myForm"
+          class="php-email-form mt-4"
+        >
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                id="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input
+              type="text"
+              class="form-control"
+              name="subject"
+              id="subject"
+              placeholder="Subject"
+              required
+            />
+          </div>
+          <div class="form-group mt-3">
+            <textarea
+              class="form-control"
+              name="message"
+              rows="5"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+          <div class="my-3">
+            <!-- <div class="loading">Loading</div> -->
+            <div class="sent-message">
+              Your message has been sent. Thank you!
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="submit" id="submitForm">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <script>
+      const form = document.getElementById("myForm");
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault(); // prevent default form submission
+
+        // get form data
+        const formData = new FormData(form);
+
+        // clear form
+        form.reset();
+
+        // show alert
+        const alert = document.createElement("div");
+        alert.classList.add("alert", "alert-success");
+        alert.textContent = "Your message has been sent. Thank you!";
+
+        // insert alert after form
+        form.insertAdjacentElement("afterend", alert);
+
+        // automatically close alert after 3 seconds
+        setTimeout(() => {
+          alert.remove(); // remove alert from DOM
+        }, 3000);
+      });
+    </script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
